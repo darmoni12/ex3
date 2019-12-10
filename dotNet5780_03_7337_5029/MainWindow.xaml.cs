@@ -35,7 +35,7 @@ namespace dotNet5780_03_7337_5029
                     {
                         new HostingUnit()
                         {
-                            UnitName="צימר",
+                            UnitName="בית הבד",
                             Rooms=4,
                             IsSwimmingPool=false,
                             AllOrders=new List<DateTime>(),
@@ -47,7 +47,7 @@ namespace dotNet5780_03_7337_5029
                         },
                         new HostingUnit()
                         {
-                            UnitName="צימר",
+                            UnitName="מדרגות הכפר",
                             Rooms=7,
                             IsSwimmingPool=true,
                             AllOrders=new List<DateTime>(),
@@ -60,7 +60,7 @@ namespace dotNet5780_03_7337_5029
                         },
                          new HostingUnit()
                         {
-                            UnitName="חדר",
+                            UnitName="הבוסתן הרומנטי",
                             Rooms=2,
                             IsSwimmingPool=false,
                             AllOrders=new List<DateTime>(),
@@ -81,7 +81,7 @@ namespace dotNet5780_03_7337_5029
                     {
                         new HostingUnit()
                         {
-                            UnitName="חדר מלון",
+                            UnitName="קסם הדפנה",
                             Rooms=5,
                             IsSwimmingPool=true,
                             AllOrders=new List<DateTime>(),
@@ -93,7 +93,7 @@ namespace dotNet5780_03_7337_5029
                         },
                         new HostingUnit()
                         {
-                            UnitName="חדר מלון",
+                            UnitName="שירת הבריאה",
                             Rooms=4,
                             IsSwimmingPool=true,
                             AllOrders=new List<DateTime>(),
@@ -139,7 +139,7 @@ namespace dotNet5780_03_7337_5029
                         },
                          new HostingUnit()
                         {
-                            UnitName="צימר בית וגן",
+                            UnitName="קסם בהר",
                             Rooms=4,
                             IsSwimmingPool=false,
                             AllOrders=new List<DateTime>(),
