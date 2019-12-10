@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:dotNet5780_03_7337_5029"
         mc:Ignorable="d"
-        Title="MainWindow" Height="640" Width="525">
+        Title="ארגון הצימרים" Height="640" Width="800">
     <Grid Name="MainGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="40*"/>
@@ -18,8 +18,8 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>                
             </Grid.ColumnDefinitions>
-            <ComboBox Name="cbHostList" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" SelectionChanged="cbHostList_SelectionChanged"/>
-            <TextBox Name="tbHostName" Grid.Column="1" HorizontalAlignment="Stretch" Text="{Binding Path=HostName}" VerticalAlignment="Stretch" FontSize="24"/>
+            <ComboBox Name="cbHostList" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" SelectionChanged="cbHostList_SelectionChanged" Grid.ColumnSpan="2" Margin="4,0,255,0"/>
+            <TextBox Name="tbHostName" Grid.Column="1" HorizontalAlignment="Stretch" Text="{Binding Path=HostName}" VerticalAlignment="Stretch" FontSize="24" TextChanged="tbHostName_TextChanged"/>
         </Grid>
     </Grid>
 </Window>
