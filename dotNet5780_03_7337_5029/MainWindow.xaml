@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:dotNet5780_03_7337_5029"
         mc:Ignorable="d"
-        Title="ארגון הצימרים" Height="640" Width="800">
+        Title="ארגון הצימרים" Height="700" Width="800">
     <Grid Name="MainGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="40*"/>
